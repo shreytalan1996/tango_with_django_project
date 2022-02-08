@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+FORM_MAX_LENGTH = 128
 
 # Application definition
 

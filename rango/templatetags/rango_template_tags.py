@@ -1,5 +1,6 @@
 from django import template
 from rango.models import Category
+from django.contrib.auth.models import User
 register = template.Library()
 
 @register.inclusion_tag('rango/categories.html')
